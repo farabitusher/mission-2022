@@ -82,6 +82,9 @@ p{
                     margin-right: 20px;
                     margin-left: 0px;
                 }
+                .first-color{
+                    background-color: #65C18C;
+                }
                 .second{
                     background: rgba(255, 89, 89, 0.1);
                     padding: 25px;
@@ -89,12 +92,18 @@ p{
                     margin-right: 10px;
                     margin-left: 20px;
                 }
+                .second-color{
+                    background-color: #C1F4C5;
+                }
                 .third{
                     background: #FFF4D6;
                     padding: 25px;
                     border-radius: 30px;
                     margin-right: 10px;
                     margin-left: 20px;
+                }
+                .third-color{
+                    background-color:#FFBED8 ;
                 }
                 
         .one-third-img{
@@ -155,3 +164,22 @@ p{
         .community-area-text{
             margin-left: 200px;
         }
+
+
+        
+
+        /*Footer are */
+
+ .footer-area{
+     background-color: #333333;
+     color: white;
+     height: 60px;
+     margin: auto;
+     text-align: center;
+     padding: 40px 0px;
+ }
+ .footer-area p{
+     color: #FFFFFF;
+     font-size: 14px
+ }
+ 
