@@ -29,11 +29,9 @@ p{
         .orange-text{
             color: orange;
         }
-        .hero-text{
-            margin-bottom: 20px;
-            border-left: 5px solid #FF5959;
-            padding: 5px;
-        }   
+        .hero-area-text{
+            margin-left: 200px;
+        }
         .half-width-img{
             padding-left: 5px;
             width: 70%;
@@ -104,36 +102,56 @@ p{
             height: 141px;
         }
  /*Third part with img and text */
- 
- .third-part{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-
+ .develop-area{
+    justify-content: center;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
  }
-        .third-part h1{
-            font-size: 36px;
-           
-            margin-bottom:30px ;
-
+        .develop-area-img{
+            width: 70%;
+            margin-left: 200px;
         }
-        .third-part p{
+        .develop-area h1{
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        .develop-area p{
             font-size: 18px;
             margin-bottom: 50px;
+            line-height: 30px;
+            
+        }
+        .develop-area-text{
+            margin-right: 200px;
+            word-wrap:inherit;
+        }
         
+        
+    /*Community-area 4th part*/
+ 
+ .community-area{
+    justify-content: center;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+ }
+        .community-area h1{
+            font-size: 36px;
+            margin-bottom: 30px;
         }
-        .third-part-img{
-           width: 60%;
-            
+        .community-area p{
+            font-size: 18px;
+            margin-bottom: 50px;
+            line-height: 30px;
         }
-        .third-part-img-area{
+        .community-area-img{
+            width: 70%;
+            margin-left: 100px;
+            margin-right: 200px;
+        }
+        .community-area-text{
             margin-left: 200px;
-            margin-right: 0px;
-        }
-        .third-part-develop-area{
-            
-            padding-right: 0px;
-            margin-left:-200px;
-            margin-right: 300px;
-            margin-top: 0px;
         }
